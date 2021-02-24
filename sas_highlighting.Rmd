@@ -23,7 +23,7 @@ run;
 
 We can use R chunks as we already know and love.
 
-```{r, class='R'}
+```{r}
  3 + 5
 ```
 
