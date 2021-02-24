@@ -1,0 +1,30 @@
+---
+title: "SAS Highlighting"
+author: "Atorus Research"
+date: "2/24/2021"
+output: 
+  html_document:
+    includes: 
+      in_header: header.html
+    css: "styles/agate.css"
+---
+
+# SAS 
+
+To create a SAS chunk we need to add the SAS class. We also need to set `eval=FALSE` or else R will try to compile this code!
+
+
+```{eval=FALSE, class='SAS'}
+proc sort data=adsl;
+  by descending sex;
+run;
+```
+
+# R
+
+We can use R chunks as we already know and love.
+
+```{r, class='R'}
+ 3 + 5
+```
+
