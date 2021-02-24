@@ -1,7 +1,6 @@
 ---
 title: "SAS Highlighting"
 author: "Atorus Research"
-date: "2/24/2021"
 output: 
   html_document:
     includes: 
